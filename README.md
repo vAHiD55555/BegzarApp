@@ -18,4 +18,4 @@ Downlaod and install **Begzar App** from releases or this link:
 Want to know us?
 
 - [`@PsrkGrmez`](https://github.com/PsrkGrmez)
-- [`@isPaydar`](https://github.com/Begzar)
+- [`@isPaydar`](https://github.com/isPaydar)
