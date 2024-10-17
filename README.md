@@ -1,16 +1,21 @@
-# begzar
+<a href="#">
+  <img src="https://github.com/user-attachments/assets/f03afd6f-630b-4fa8-af58-42c7fc6feda2" width="200" height="200">
+</a>
 
-A new Flutter project.
+
+# 📱 Begzar Android App
+
+Internet freedom solution for iranian people.
+
+based on free configs from Telegram, MahsaNG, Donated Servers.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Downlaod and install **Begzar App** from releases or this link:
 
-A few resources to get you started if this is your first Flutter project:
+[`Download Begzar App`](https://github.com/Begzar/BegzarApp/releases/download/v5.0.0/begzar-v8a-5.0.0.apk)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Want to know us?
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [`@PsrkGrmez`](https://github.com/PsrkGrmez)
+- [`@isPaydar`](https://github.com/Begzar)
