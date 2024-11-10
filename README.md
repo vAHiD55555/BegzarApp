@@ -13,7 +13,7 @@ based on free configs from Telegram, MahsaNG, Donated Servers.
 
 Downlaod and install **Begzar App** from releases or this link:
 
-[`Download Begzar App`](https://github.com/Begzar/BegzarApp/releases/download/v5.0.0/begzar-v8a-5.0.0.apk)
+[`Download Begzar App`](https://github.com/Begzar/BegzarApp/releases/download/v5.5.0/begzar-v8a-5.5.0.apk)
 
 Want to know us?
 
