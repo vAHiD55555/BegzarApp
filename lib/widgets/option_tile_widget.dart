@@ -46,7 +46,7 @@ class OptionTile extends StatelessWidget {
           ),
         ),
         trailing: isShowArrowBtn
-            ? Icon(Icons.arrow_circle_left_outlined,
+            ? Icon(Icons.arrow_forward,
                 color: ThemeColor.foregroundColor, size: 30)
             : null,
       ),

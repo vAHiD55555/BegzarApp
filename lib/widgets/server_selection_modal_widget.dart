@@ -1,4 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class ServerSelectionModal extends StatelessWidget {
   final String selectedServer;
@@ -9,8 +11,7 @@ class ServerSelectionModal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Directionality(
-      textDirection: TextDirection.rtl,
+    return SingleChildScrollView(
       child: Container(
         padding: EdgeInsets.all(20),
         child: Column(
@@ -18,7 +19,7 @@ class ServerSelectionModal extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'انتخاب سرور',
+              context.tr('select_server'),
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -26,33 +27,36 @@ class ServerSelectionModal extends StatelessWidget {
             ),
             SizedBox(height: 20),
             ListTile(
-              leading: Image.asset('assets/images/auto.png', width: 32),
-              title: Text('اتوماتیک'),
-              subtitle: Text('بر روی تمامی اپراتور ها متصل میشود.'),
-              trailing: selectedServer == 'اتوماتیک'
+              leading: Lottie.asset('assets/lottie/auto.json', width: 30),
+              title: Text('Automatic'),
+              trailing: selectedServer == 'Automatic'
                   ? Icon(Icons.check, color: Colors.green)
                   : null,
-              onTap: () => onServerSelected('اتوماتیک'),
+              onTap: () => onServerSelected('Automatic'),
             ),
             Divider(),
             ListTile(
               // leading: Icon(Icons.flag, color: Colors.white, size: 32),
-              leading: Image.asset('assets/images/mci.png', width: 32, color: Colors.white),
-              title: Text('همراه اول'),
-              subtitle: Text('سرورهای مخصوص اپراتور همراه اول'),
-              trailing: selectedServer == 'همراه اول'
+              leading: Lottie.asset('assets/lottie/server.json', width: 32),
+              title: Text(
+                'Server 1',
+                style: TextStyle(fontFamily: 'GM'),
+              ),
+              trailing: selectedServer == 'Server 1'
                   ? Icon(Icons.check, color: Colors.green)
                   : null,
-              onTap: () => onServerSelected('همراه اول'),
+              onTap: () => onServerSelected('Server 1'),
             ),
             ListTile(
-              leading: Image.asset('assets/images/mtn.png', width: 32, color: Colors.white),
-              title: Text('ایرانسل'),
-              subtitle: Text('سرورهای مخصوص اپراتور ایرانسل'),
-              trailing: selectedServer == 'ایرانسل'
+              leading: Lottie.asset('assets/lottie/server.json', width: 32),
+              title: Text(
+                'Server 2',
+                style: TextStyle(fontFamily: 'GM'),
+              ),
+              trailing: selectedServer == 'Server 2'
                   ? Icon(Icons.check, color: Colors.green)
                   : null,
-              onTap: () => onServerSelected('ایرانسل'),
+              onTap: () => onServerSelected('Server 2'),
             ),
           ],
         ),
